@@ -8,7 +8,7 @@
     
 <h2 dir="auto">Steps</h2>
 <ol>
-	<li> 'cd angular-assignment-1' </li>
+	<li> <pre>cd angular-assignment-1' </pre> </li>
 	<li> Run npm install </li>
 	<li> Run ng serve </li>
 </ol>
