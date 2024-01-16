@@ -6,3 +6,9 @@
     Description: 	 This is the Angular Assignment 1. Full stack .Net Cloud Developer Program at Humber College
     Angular Version: 14.0.3
     
+<h2 dir="auto">Steps</h2>
+<ol>
+	<li> cd to angular-assignment-1 folder </li>
+	<li> Run npm install </li>
+	<li> Run ng serve </li>
+</ol>
