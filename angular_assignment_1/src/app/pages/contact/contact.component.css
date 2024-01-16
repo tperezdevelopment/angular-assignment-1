@@ -1,0 +1,88 @@
+/**********************************/
+/*********** Contact CSS ***********/
+/**********************************/
+.contact {
+    position: relative;
+    padding: 60px 30px 30px 30px;
+    background: #ffffff;
+}
+
+.contact .contact-info {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact .contact-info p {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contact .contact-info p i {
+    width: 25px;
+    color: #FF6F61;
+}
+
+.contact .contact-info p a {
+    color: #666666;
+}
+
+.contact .contact-info p a:hover {
+    color: #FF6F61;
+    text-decoration: none;
+}
+
+::ng-deep .social {
+    font-size: 0;
+}
+
+::ng-deep .social a  {
+    width: 35px;
+    height: 35px;
+    padding: 5px 0;
+    color: #222222;
+    background: #FF6F61;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+    transition: all .3s;
+}
+
+::ng-deep .social a:last-child {
+    margin-right: 0;
+}
+
+::ng-deep .social a:hover {
+    color: #FF6F61;
+    background: #222222;
+}
+
+::ng-deep .form {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+::ng-deep .form .form-control {
+    border-radius: 0;
+}
+
+::ng-deep .form .form-control:focus {
+    box-shadow: none;
+    border-color: #FF6F61;
+}
+
+::ng-deep .form .btn {
+    color: #222222;
+    background: #FF6F61;
+    border-radius: 0;
+    transition: all .3s;
+}
+
+::ng-deep .form .btn:hover {
+    color: #FF6F61;
+    background: #222222;
+}
+

@@ -1,0 +1,16 @@
+<div class="header" id="header">
+    <div class="content-inner">
+        <p>{{headerObject.title}}</p>
+        <h1>{{headerObject.subtitle}}</h1>
+        <h2><ngx-typed-js [strings]="headerObject.headerTyped" 
+        [shuffle]="true" [typeSpeed]="40">
+            <span class="typing "></span>
+          </ngx-typed-js>
+        </h2>
+    </div>
+</div>
+<div class="large-btn">
+    <div class="content-inner">
+      <a class="btn" *ngFor="let social of headerObject.largeButtom" [href]="social.href"> <i [class]="social.icon"></i>{{social.text}}</a>
+    </div>
+</div>
