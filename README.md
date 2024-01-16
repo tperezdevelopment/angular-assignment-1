@@ -11,4 +11,5 @@
 	<li> Go to  angular-assignment-1 folder <pre> cd angular-assignment-1 </pre> </li>
 	<li> Run <pre> npm install </pre></li>
 	<li> Run <pre> ng serve </pre> </li>
+	<li> Go to the browser by default to http://localhost:4200/ </li>
 </ol>
