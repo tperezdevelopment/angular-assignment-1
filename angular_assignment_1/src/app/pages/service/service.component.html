@@ -1,0 +1,16 @@
+<div class="service" id="service">
+    <div class="content-inner">
+        <div class="content-header">
+            <h2>{{ serviceObject.title }}</h2>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6" *ngFor="let service of serviceObject.serviceList.list">
+                <div [class]="serviceObject.serviceList.class">
+                    <i [class]="service.i"></i>
+                    <h3>{{ service.h3 }}</h3>
+                    <p> {{ service.p }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

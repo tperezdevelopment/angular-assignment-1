@@ -1,0 +1,9 @@
+<div class="skills" *ngFor="let skill of skills">
+    <div class="skill-name">
+        <p>{{skill.skillName}}</p><p>{{skill.percent}}%</p>
+    </div>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" [style.width]="skill.initialWidth"></div>
+        <div [@widthAnimation]="skill.initialWidth"></div>
+    </div>   
+</div>
