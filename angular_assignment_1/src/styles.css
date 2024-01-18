@@ -31,7 +31,7 @@ a:focus {
 }
 
 /**********************************/
-/****** Layout with Sidebar *******/
+/*** General Layout with Sidebar ***/
 /**********************************/
 .wrapper {
     position: relative;
@@ -59,44 +59,6 @@ a:focus {
 .wrapper .sidebar-footer {
     display: none;
 }
-
-.navbar {
-    padding: 15px;
-    background: #222222 !important;
-}
-
-.navbar-expand-md .navbar-nav .nav-item {
-    width: 100%;
-    border-top: 1px solid rgba(255, 255, 255, .2);
-}
-
-.navbar-expand-md .navbar-nav .nav-item:first-child{
-    border-top: none;
-}
-
-.navbar-expand-md .navbar-nav .nav-link {
-    color: #ffffff;
-    padding: 5px 15px 7px 15px;
-    transition: all .3s;
-}
-
-.navbar-expand-md .navbar-nav .nav-link i {
-    color: #FF6F61;
-    float: right;
-    padding-top: 5px;
-    transition: all .3s;
-}
-
-.navbar-expand-md .navbar-nav .nav-link:hover,
-.navbar-expand-md .navbar-nav .nav-link.active {
-    color: #FF6F61;
-}
-
-.navbar-expand-md .navbar-nav .nav-link:hover i,
-.navbar-expand-md .navbar-nav .nav-link.active i{
-    color: #ffffff;
-}
-
 
 .wrapper .sidebar,
 .wrapper .content {

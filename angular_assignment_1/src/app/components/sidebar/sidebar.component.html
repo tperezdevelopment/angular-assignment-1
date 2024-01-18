@@ -16,7 +16,7 @@
                     <li
                     *ngFor="let menu of sidebarObject.menuSidebar"
                     class="nav-item">                  
-                    <a class="nav-link" routerLink = "{{ menu.href }}"> {{menu.name}} <i [class] = "menu.icon"></i> </a>
+                    <a class="nav-link" routerLinkActive="active" routerLink = "{{ menu.href }}"> {{menu.name}} <i [class] = "menu.icon"></i> </a>
                   </li>
                 </ul>
             </div>

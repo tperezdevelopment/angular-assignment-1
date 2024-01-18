@@ -1,0 +1,41 @@
+/**********************************/
+/****** Layout with Sidebar *******/
+/**********************************/
+
+.navbar {
+    padding: 15px;
+    background: #222222 !important;
+}
+
+.navbar-expand-md .navbar-nav .nav-item {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+.navbar-expand-md .navbar-nav .nav-item:first-child{
+    border-top: none;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: #FF6F61;
+    padding: 5px 15px 7px 15px;
+    transition: all .3s;
+}
+
+.navbar-expand-md .navbar-nav .nav-link i {
+    color: #FF6F61;
+    float: right;
+    padding-top: 5px;
+    transition: all .3s;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover,
+.navbar-expand-md .navbar-nav .nav-link.active {
+    color: #ffffff;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover i,
+.navbar-expand-md .navbar-nav .nav-link.active i{
+    color: #ffffff;
+}
+
