@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LightboxModule } from 'ngx-lightbox';
-import { NgbModule, NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 
 
@@ -65,7 +65,6 @@ import { ContactService } from './services/contact/contact.service';
     NgxTypedJsModule,
     LightboxModule,
     NgbModule,
-    NgbCollapseModule,
     FormsModule
   ],
   providers: [
