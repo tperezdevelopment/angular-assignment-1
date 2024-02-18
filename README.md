@@ -10,7 +10,7 @@
     
 <h2 dir="auto">Steps</h2>
 <ol>
-	<li> Go to  angular-assignment-1 folder <pre> cd angular-assignment-1 </pre> </li>
+	<li> Go to  angular-assignment-1 folder where is the angular project <pre> cd angular-assignment-1 </pre> </li>
 	<li> Run <pre> npm install </pre></li>
 	<li> Run <pre> ng serve </pre> </li>
 	<li> Go to the browser by default to http://localhost:4200/ </li>
